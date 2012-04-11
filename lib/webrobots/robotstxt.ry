@@ -53,7 +53,7 @@ rule
 			    result = []
 			  }
 			| records
-			  blanklines
+			  opt_blanklines
 			  record
 			  {
 			    result << val[2]
